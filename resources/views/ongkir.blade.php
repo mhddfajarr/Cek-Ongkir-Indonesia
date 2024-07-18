@@ -51,7 +51,7 @@
                             <option value="tiki">TIKI</option>
                         </select>
                     </div>
-                    <div class="mt-3">
+                    <div class="mt-3 mb-5">
                         <input type="submit" name="cekOgkir" class="btn btn-primary w-100">
                     </div>
                 </form>
@@ -72,7 +72,7 @@
                                 <td>{{ $ongkir['destination_details']['city_name'] }}</td>
                             </tr>
                             <tr>
-                                <th>Berat Paket</th>
+                                <th>Berat</th>
                                 <td>{{ $ongkir['query']['weight'] }} Gram</td>
                             </tr>
                             <tr>
