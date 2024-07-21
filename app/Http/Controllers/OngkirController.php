@@ -15,7 +15,7 @@ class OngkirController extends Controller
         
         $cities = $response['rajaongkir']['results']; 
         
-        return view('ongkir' ,[
+        return view('cekOngkir' ,[
             'cities' => $cities,
             'ongkir' => '' 
         ]);
@@ -38,7 +38,7 @@ class OngkirController extends Controller
         $cities = $response['rajaongkir']['results']; 
         $ongkir = $responseCost['rajaongkir']; 
         // dd($ongkir);
-        return view('ongkir' ,[
+        return view('cekOngkir' ,[
             'cities' => $cities ,
             'ongkir' => $ongkir
         ]);
